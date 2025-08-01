@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coca</title>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-        rel="stylesheet">
+    <title>Coworking Spaces - Coca</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container header-inner">
-            <img src="/images/Logo.png" alt="coca - Coworking Spaces">
-            <h1 class="logo">coca</h1>
+            <div class="logo-container">
+                <img src="/images/Logo.png" alt="coca - Coworking Spaces">
+                <h1 class="logo">coca</h1>
+            </div>
             <nav class="menu" aria-label="Main-Menu">
                 <div class="menu-desktop">
                     <ul class="menu-desktop-left">
@@ -36,7 +39,7 @@
     <main class="main">
         <section class="hero-section">
             <p class="hero-eyebrow">Coworking Spaces for All</p>
-            <h2>The best coworkig in NYC</h2>
+            <h2>The best coworking in NYC</h2>
             <p>Coworking is all about being your own boss, and that's why it's such a great fit for freelancers. But it
                 can be hard to know what you're getting into when you first start out.
             </p>
@@ -168,7 +171,54 @@
         </section>
     </main>
     <footer class="footer">
-
+        <div class="footer-column footer-newsletter">
+            <div class="subscribe-section" aria-label="Newsletter Heading">
+                <h3>Subscribe to our newsletter</h3>
+                <form action="#subscribe" method="post" class="newsletter-form">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" placeholder="Email address"
+                        aria-label="Enter your email address" required>
+                    <button type="submit" aria-label="Subscribe">></button>
+                </form>
+            </div>
+            <nav class="footer-column footer-nav" aria-label="Services links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Email Marketing</a></li>
+                    <li><a href="#">Compaigns</a></li>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Offline</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-column footer-nav" aria-label="About links">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Our story</a></li>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Carrers</a></li>
+                </ul>
+            </nav>
+            <nav class="footer-column footer-nav" aria-label="Help links">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-links-bottom">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-social-media">
+                <a href="#" aria-label="Follow us on Facebook"><img src="/images/Facebook-icon.png" alt="Facebook"></a>
+                <a href="#" aria-label="Follow us on Twitter"><img src="/images/Twitter-icon.png" alt="Twitter"></a>
+                <a href="#" aria-label="Follow us on Instagram"><img src="/images/Instagram-icon.png"
+                        alt="Instagram"></a>
+            </div>
+        </div>
     </footer>
 </body>
 

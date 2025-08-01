@@ -1,0 +1,131 @@
+:root {
+    --hero-color: #FFF;
+    --startup-color: #EBFAEF;
+    --guide-color: #094319;
+    --buttons-color: #24AA4A;
+    --text-dark: black;
+    --font-body: 'Inter', sans-serif;
+    --font-headings: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--hero-color);
+    color: var(--text-dark);
+    min-width: 375px;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+/*------------------------------ HEADER MOBILE -----------------------------------*/
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--hero-color);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.75rem;
+}
+
+.header-inner .logo-container {
+    display: flex;
+}
+
+.header-inner img[src*="Logo.png"] {
+    height: 2rem;
+    width: auto;
+    margin: 0.625rem;
+    margin-left: 1.25rem;
+}
+
+.header-inner .logo {
+    font-size: 1.8rem;
+    color: var(--text-dark);
+    margin: 0.2rem;
+    font-weight: 700;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+.menu-mobile {
+    display: block;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0.625rem;
+    margin-right: 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu-toggle img {
+    height: 1.5rem;
+    width: auto;
+}
+
+/*------------------------------ HERO MOBILE SECTION -----------------------------------*/
+
+.hero-section {
+    padding: 0 0 2rem 0;
+    text-align: left;
+}
+
+.hero-eyebrow {
+    font-family: var(--font-body);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 0 0 1rem 1.25rem;
+}
+
+.hero-section h2 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    color: var(--text-dark);
+    margin: 0 1.25rem 1rem 1.25rem;
+}
+
+.hero-section p {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.5;
+}
