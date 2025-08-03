@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coworking Spaces - Coca</title>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="/images/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -85,9 +88,8 @@
                 </div>
             </div>
             <div class="guide-image">
-                <div class="yellow-shape">
-                    <img src="/images/guide-image.png" alt="Coworking-Area">
-                </div>
+                <div class="yellow-shape"></div>
+                <img src="/images/guide-image.png" alt="Coworking-Area">
             </div>
         </section>
         <section class="article-section">
@@ -121,31 +123,43 @@
             </div>
 
             <div class="feature-grid">
-                <div class="feature">
-                    <img src="/images/Wifi-icon.png" alt="Wifi-icon image">
-                    <p>Wi-Fi Network Availability</p>
+                <div class="feature-pair">
+                    <div class="feature">
+                        <img src="/images/Wifi-icon.png" alt="Wifi icon">
+                        <p>Wi-Fi Network Availability</p>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="feature">
+                        <img src="/images/Price-icon.png" alt="Price icon">
+                        <p>Affordable Prices</p>
+                    </div>
                 </div>
-                <div class="feature">
-                    <img src="/images/Price-icon.png" alt="Price image">
-                    <p>Affordable Prices</p>
+
+                <div class="feature-pair">
+                    <div class="feature">
+                        <img src="/images/Comfortable-icon.png" alt="Comfort icon">
+                        <p>Comfortable Workspace</p>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="feature">
+                        <img src="/images/Parking-icon.png" alt="Parking icon">
+                        <p>Wide Parking Area</p>
+                    </div>
                 </div>
-                <div class="feature">
-                    <img src="/images/Comfortable-icon.png" alt="comfort image">
-                    <p>Comfortable Workspace</p>
-                </div>
-                <div class="feature">
-                    <img src="/images/Parking-icon.png" alt="Parking image">
-                    <p>Wide Parking Area</p>
-                </div>
-                <div class="feature">
-                    <img src="/images/Mosque-icon.png" alt="Mosque image">
-                    <p>Restroom and Mosque</p>
-                </div>
-                <div class="feature">
-                    <img src="/images/Admin-icon.png" alt="Admin image">
-                    <p>24-hours Admin Helps</p>
+
+                <div class="feature-pair">
+                    <div class="feature">
+                        <img src="/images/Mosque-icon.png" alt="Mosque icon">
+                        <p>Restroom and Mosque</p>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="feature">
+                        <img src="/images/Admin-icon.png" alt="Admin icon">
+                        <p>24-hours Admin Helps</p>
+                    </div>
                 </div>
             </div>
+
         </section>
         <section class="review-section">
             <div class="review-image">
@@ -165,8 +179,8 @@
         <section class="cta-section">
             <img src="/images/Logo.png" alt="cta Logo Image">
             <p>Ready to get started?</p>
-            <div class="hero-cta">
-                <a href="#get-started" class="hero-cta">Get Started</a>
+            <div class="button-cta">
+                <a href="#get-started" class="button-cta">Get Started</a>
             </div>
         </section>
     </main>
@@ -175,7 +189,6 @@
             <div class="subscribe-section" aria-label="Newsletter Heading">
                 <h3>Subscribe to our newsletter</h3>
                 <form action="#subscribe" method="post" class="newsletter-form">
-                    <label for="email">Email address</label>
                     <input type="email" id="email" name="email" placeholder="Email address"
                         aria-label="Enter your email address" required>
                     <button type="submit" aria-label="Subscribe">></button>
