@@ -81,6 +81,10 @@ ul li {
     display: none;
 }
 
+.sign-in-wrapper {
+    display: none;
+}
+
 .menu-mobile {
     display: block;
 }
@@ -591,7 +595,7 @@ ul li {
 }
 
 .newsletter-form label {
-    display: none; 
+    display: none;
 }
 
 .newsletter-form input[type="email"] {
@@ -682,4 +686,75 @@ ul li {
     width: 20px;
     height: 20px;
     object-fit: contain;
+}
+
+/*------------------------------ MEDIAS QUERIES-----------------------------------*/
+
+@media (min-width: 1024px) {
+
+    /*------------------------------ HEADER DESKTOP-----------------------------------*/
+
+
+    .menu-desktop {
+        display: block;
+    }
+
+    .menu-desktop-left {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        padding: 0;
+        margin-left: 2rem;
+        font-family: var(--font-body);
+    }
+
+    .menu-desktop-left li a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1rem;
+        color: var(--text-light);
+        transition: color 0.3s ease;
+    }
+
+    .menu-desktop-left li a:hover,
+    .menu-desktop-left li a:focus {
+        color: var(--buttons-color);
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .header-inner {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .sign-in-wrapper {
+        display: block;
+    }
+
+    .sign-in-button {
+        background-color: var(--buttons-color);
+        color: var(--hero-color);
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .sign-in-button:hover {
+        background-color: var(--buttons-hover);
+    }
+
+    /*------------------------------ HERO SECTION DESKTOP -----------------------------------*/
+
+    
+
 }
