@@ -704,15 +704,23 @@ ul li {
         gap: 2rem;
         list-style: none;
         padding: 0;
-        margin-left: 2rem;
+        margin-left: 4rem;
         font-family: var(--font-body);
     }
 
     .menu-desktop-left li a {
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 1rem;
-        color: var(--text-light);
+        color: #757B8A;
+        transition: color 0.3s ease;
+    }
+
+    .menu-desktop-left .about-button {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1rem;
+        color: var(--buttons-color);
         transition: color 0.3s ease;
     }
 
@@ -755,6 +763,45 @@ ul li {
 
     /*------------------------------ HERO SECTION DESKTOP -----------------------------------*/
 
+    .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 6rem 3rem;
+    gap: 3rem;
+    max-width: 1200px;
+  }
+
+  .hero-content {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  .hero-section h2 {
+    font-size: 4rem;
+    max-width: 520px;
+  }
+
+  .hero-section p {
+    max-width: 480px;
+  }
+
+  .hero-image {
+  flex: 1;
+  max-width: 600px; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+}
     
 
 }
