@@ -409,6 +409,8 @@ ul li {
     justify-content: center;
     gap: 1rem;
     margin: 0 0 3rem 1.5rem;
+    max-width: 480px;
+    max-height: 120px;
 }
 
 .beneficts-images img {
@@ -717,6 +719,12 @@ ul li {
 }
 
 /*------------------------------ MEDIAS QUERIES-----------------------------------*/
+
+@media (min-width: 480px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1200px) {}
 
 @media (min-width: 1024px) {
 
