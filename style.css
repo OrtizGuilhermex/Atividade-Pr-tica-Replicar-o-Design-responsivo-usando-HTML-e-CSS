@@ -409,8 +409,6 @@ ul li {
     justify-content: center;
     gap: 1rem;
     margin: 0 0 3rem 1.5rem;
-    max-width: 480px;
-    max-height: 120px;
 }
 
 .beneficts-images img {
@@ -1288,6 +1286,23 @@ ul li {
 
     /*------------------------------ FOOTER DESKTOP -----------------------------------*/
 
+    .subscribe-section {
+        margin-left:4rem;
+    }
 
+    .subscribe-section h3 {
+        color: var(--text-dark);
+    }
+
+    .newsletter-form {
+        position: relative;
+        max-width: 289px;
+        height: 44px;
+    }
+
+    .footer-row .footer-newsletter {
+        display: flex;
+        flex-direction: row;
+    }
 
 }
