@@ -1230,6 +1230,10 @@ ul li {
     /*------------------------------ HEADER DESKTOP-----------------------------------*/
 
 
+    .logo-container{
+        margin-left:1rem ;
+    }
+
     .menu-desktop {
         display: block;
     }
@@ -1279,6 +1283,7 @@ ul li {
 
     .sign-in-wrapper {
         display: block;
+        margin-right: 1rem;
     }
 
     .sign-in-button {
