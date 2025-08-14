@@ -272,6 +272,7 @@ ul li {
     padding: 3rem 1.5rem;
     max-width: 1035px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .guide-section h2 {
@@ -317,10 +318,24 @@ ul li {
 .guide-image {
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.yellow-shape {
+    position: absolute;
+    bottom: -23%;
+    right: -40%;
+    width: 400px;
+    height: 400px;
+    background-color: #F9DA60;
+    border-radius: 50%;
+    z-index: 1;
 }
 
 
 .guide-image img {
+    z-index: 2;
     margin-bottom: 2rem;
 }
 
@@ -801,7 +816,6 @@ ul li {
     /*------------------------------ REVIEW SECTION 768px -----------------------------------*/
 
 
-
     .review-image {
         position: relative;
         width: 100%;
@@ -828,6 +842,12 @@ ul li {
         border-radius: 8px;
         position: relative;
         z-index: 2;
+    }
+
+    /*------------------------------ REVIEW SECTION 768px -----------------------------------*/
+
+    .yellow-shape {
+        display: none;
     }
 
 }
@@ -952,10 +972,20 @@ ul li {
         margin: 0.5rem 0 2rem 0;
     }
 
+    .yellow-shape {
+        display: flex;
+    }
+
     .guide-image img {
         width: 426px;
         height: auto;
         object-fit: cover;
+    }
+
+    /*------------------------------ ARTICLE SECTION 1024PX-----------------------------------*/
+
+    .article-card img {
+        border-radius: 0;
     }
 
     /*------------------------------ STARTUP SECTION 1024PX-----------------------------------*/
@@ -1466,6 +1496,17 @@ ul li {
         margin: 0.5rem 0 2rem 0;
     }
 
+    .yellow-shape {
+        position: absolute;
+        bottom: -14rem;
+        right: -16rem;
+        width: clamp(400px, 550px, 601px);
+        height: clamp(400px, 550px, 601px);
+        background-color: #F9DA60;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
     .guide-image img {
         width: 426px;
         height: auto;
@@ -1556,11 +1597,13 @@ ul li {
         margin: 0 auto;
         padding: 4rem 6rem;
         max-width: 1440px;
+        position: relative;
+        overflow: hidden;
     }
 
 
     .beneficts-desktop-image {
-        display: block;
+        display: flex;
     }
 
     .beneficts-text {
@@ -1591,11 +1634,12 @@ ul li {
         display: flex;
         position: relative;
         justify-content: flex-start;
-        gap: 1rem;
+        gap: 2.5rem;
         padding-left: 2rem;
         margin-bottom: 3rem;
-        overflow: hidden;
+        overflow: visible;
         width: 100%;
+        height: auto;
         max-width: 1440px;
         box-sizing: border-box;
     }
