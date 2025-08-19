@@ -4,10 +4,11 @@
 O objetivo deste trabalho foi replicar o design disponibilizado no Figma de forma fiel e responsiva, garantindo que o site funcionasse corretamente nas resoluções:
 
 Mobile: 375px
-
 Desktop: 1440px
 
 Além disso, foi aplicado o conceito de Clean Code, organização de arquivos e uso de variáveis para maior legibilidade e manutenção do código.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🖥️ Para que o site pode ser usado
 
@@ -18,6 +19,8 @@ Treinamento de responsividade.
 Exemplo de boas práticas em HTML e CSS.
 
 Base para estudos em design system e componentização.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Como abrir o projeto no VS Code
 
@@ -31,6 +34,8 @@ Clique com o botão direito no arquivo index.html e selecione "Open with Live Se
 
 O navegador abrirá o site na sua máquina.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 👨‍💻 Informações do autor
 
 Nome: Luiz Guilherme F. Ortiz
@@ -38,6 +43,8 @@ Nome: Luiz Guilherme F. Ortiz
 Turma: MIDS 78
 
 Curso: Desenvolvimento de Sistemas
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📝 Um pouco sobre o projeto
 
