@@ -7,37 +7,47 @@ Mobile: 375px
 
 Desktop: 1440px
 
-Além disso, foi aplicado o conceito de Clean Code, organização de arquivos e uso de variáveis para maior legibilidade e manutenção do código.
+Também foram aplicados conceitos de Clean Code, uso de variáveis e boa organização de arquivos para manter o código mais legível e fácil de dar manutenção.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🖥️ Para que o site pode ser usado
 
-O site foi desenvolvido como exercício prático de front-end, podendo ser usado como:
+Este projeto foi desenvolvido como prática de front-end e pode ser utilizado como:
 
-Treinamento de responsividade.
+Exercício de responsividade.
 
 Exemplo de boas práticas em HTML e CSS.
 
-Base para estudos em design system e componentização.
+Praticar organização de código e estruturação de projetos.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-⚙️ Como abrir o projeto no VS Code
+⚙️ Como executar localmente
+1. Pré-requisitos
+
+Visual Studio Code
+ instalado.
+
+Extensão Live Server instalada no VS Code.
+
+2. Passo a passo
 
 Instale o VS Code se ainda não tiver: 👉 https://code.visualstudio.com/
 
-Abra o VS Code e clique em File > Open Folder.
+Abra o VS Code.
 
-Selecione a pasta do projeto.
+Vá em File > Open Folder e selecione a pasta do projeto.
 
-Clique com o botão direito no arquivo index.html e selecione "Open with Live Server" (necessário instalar a extensão Live Server).
+Clique com o botão direito no arquivo index.html.
 
-O navegador abrirá o site na sua máquina.
+Selecione "Open with Live Server".
+
+O navegador abrirá automaticamente o site.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-👨‍💻 Informações do autor
+👨‍💻 Autor
 
 Nome: Luiz Guilherme F. Ortiz
 
@@ -47,22 +57,16 @@ Curso: Desenvolvimento de Sistemas
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📝 Um pouco sobre o projeto
+📝 Sobre o projeto
 
-Esse projeto foi muito importante para praticar:
+Este projeto foi importante para praticar:
 
-HTML semântico
+Estruturação de HTML semântico.
 
-CSS responsivo
+Criação de CSS responsivo.
 
-Uso de variáveis e boas práticas de Clean Code
+Uso de variáveis e práticas de Clean Code.
 
-Organização de pastas e estrutura de projeto
+Organização de pastas e arquivos de forma clara.
 
-O desafio principal foi manter o design mais próximo possível ao protótipo do Figma, respeitando cores, espaçamentos, tipografia e responsividade.
-
-Uso de variáveis e boas práticas de Clean Code
-
-Organização de pastas e estrutura de projeto
-
-O desafio principal foi manter o design mais próximo possível ao protótipo do Figma, respeitando cores, espaçamentos, tipografia e responsividade.
+O principal desafio foi deixar o resultado o mais próximo possível do protótipo do Figma, respeitando cores, tipografia, espaçamentos e responsividade.
