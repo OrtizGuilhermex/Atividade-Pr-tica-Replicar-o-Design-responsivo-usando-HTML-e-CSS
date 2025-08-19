@@ -4,6 +4,7 @@
 O objetivo deste trabalho foi replicar o design disponibilizado no Figma de forma fiel e responsiva, garantindo que o site funcionasse corretamente nas resoluções:
 
 Mobile: 375px
+
 Desktop: 1440px
 
 Além disso, foi aplicado o conceito de Clean Code, organização de arquivos e uso de variáveis para maior legibilidade e manutenção do código.
